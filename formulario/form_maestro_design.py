@@ -10,7 +10,7 @@ class formularioMaestroDesign(tk.Tk):
     def __init__(self):
         super().__init__()
         self.logo = util_img.leer_imagen("./imagenes/logo.jpg", (560, 136))
-        self.perfil = util_img.leer_imagen("./imagenes/perfil.jpg", (100, 100))
+        self.perfil = util_img.leer_imagen("./imagenes/perfil.png", (100, 100))
         self.config_windows()
         self.paneles()
         self.controles_barra_superior()
@@ -20,7 +20,7 @@ class formularioMaestroDesign(tk.Tk):
     def config_windows(self):
         # Configuracion inicial de la ventana
         self.title('Menu Principal')
-        self.iconbitmap("./imagenes/icono.png")
+        self.iconbitmap("./imagenes/icono.ico")
         w, h = 1024, 600
         util_ventana.centrar_ventana(self, w, h)
 
