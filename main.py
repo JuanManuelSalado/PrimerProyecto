@@ -1,7 +1,4 @@
-print("hola mundo")
+from formulario.form_maestro_design import formularioMaestroDesign
 
-n1 = 24 
-n2 = 32
-
-print(n1 + n2) 
-
+app = formularioMaestroDesign()
+app.mainloop()
